@@ -28,7 +28,7 @@ To install the Metrics Server Simplified in your Kubernetes cluster, follow thes
 1. Apply the configuration to your cluster:
 
     ```bash
-    kubectl apply -f components.yaml
+    kubectl apply -f https://raw.githubusercontent.com/spurin/kubernetes-metrics-server-simplified/main/components.yaml
     ```
 
 2. Verify the installation:
